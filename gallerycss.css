@@ -1,0 +1,139 @@
+
+.gallerybutton {background:none; border:none; color:brown; font-size: 36px;}
+
+div.title {font-size: 32px; text-align: center; font-weight: bold;} 
+
+div.container2 {margin-top: 1000px;}
+
+#exhibitabout {position:center; text-align: center; font-size: 24px; margin:30px;}
+
+#slides {
+    display: none
+}
+  
+#slides .slidesjs-navigation {
+    margin-top: 3px;
+}
+  
+#slides .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+}
+  
+#slides .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+  
+.slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+}
+  
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+  
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20201213110552/logo.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+  
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -1300px
+}
+  
+.slidesjs-pagination li a:hover {
+    background-position: 0 -2600px
+}
+  
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+  
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+  
+
+.navbar {
+    overflow: hidden
+}
+
+
+#slides2 {
+    display: none
+}
+  
+#slides2 .slidesjs-navigation {
+    margin-top: 3px;
+}
+  
+#slides2 .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+}
+  
+#slides2 .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+  
+.slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+}
+  
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+  
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20201213110552/logo.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+  
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -1300px
+}
+  
+.slidesjs-pagination li a:hover {
+    background-position: 0 -2600px
+}
+  
+#slides2 a:link,
+#slides2 a:visited {
+    color: #333
+}
+  
+#slides2 a:hover,
+#slides2 a:active {
+    color: #9e2020
+}
+
+
+.navbar {
+    overflow: hidden
+}

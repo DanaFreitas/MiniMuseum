@@ -1,0 +1,30 @@
+
+
+div.history { margin-bottom: 30px;}
+
+div.table {display:table; margin-bottom:30px; margin-left: auto; margin-right: auto;}
+div.tablerow {display:table-row; }
+div.tablecell {display:table-cell; } 
+
+@media only screen and (min-width: 768px){
+
+    div.history {font-size: 24px;}
+}
+@media only screen and (max-width: 768px){
+
+    div.history {font-size: 16px;}
+}
+
+@media screen and (max-width: 479px) {
+    .table, .tablerow .tablecell{
+        display: block;
+    }
+
+}
+@media only screen and (min-width: 479px){
+    img {height:150px; width:239px}
+    }
+
+@media only screen and (min-width: 768px){
+img {height:250px; width:350px}
+}
