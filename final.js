@@ -59,7 +59,7 @@ $(document).ready(function() {
    
    
 
-  
+  //validate name
     const nameGiven = /[A-Za-z]/;
     const name = $("#name").val();
     if (name == "") {
@@ -74,7 +74,7 @@ $(document).ready(function() {
       $("#name").next().text("");
     } 
   
-  
+  //validate email
     var emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b/;
     var email = $("#email").val();
     if (email == "") {
@@ -95,8 +95,8 @@ $(document).ready(function() {
 
 
 
-//
 
+//validate password
 $(document).ready(function() {
   $(":text, :password").after("<span>*</span>");
   arrival_date.focus()
