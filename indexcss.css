@@ -1,0 +1,57 @@
+
+#faqtitle {font-size: 32px; margin-top: 180px; text-align: center; margin-bottom: 20px;}
+
+img.minimuseum {height:600px; width:600px; align-items:left ; 
+   }
+
+   
+
+#sunset { height:300px; width:300px; margin:30px;}
+#books { height:300px; width:300px;  margin:30px;} 
+
+#faqcontainer {margin-bottom: 50px; padding-top: 0px; }
+@media only screen and (min-width: 768px){
+    #faqcontainer {margin-bottom: 50px; padding-top: 0px; margin-left: 100px; margin-right:100px;} }
+
+
+#indexintro {/*padding:300px; */
+     margin:20px; font-size: 16px;} 
+
+
+     @media only screen and (min-width: 768px){
+        .imgcontainer {display: grid;
+            grid-gap: 20px;
+            grid-template-columns:  1fr 1fr;
+            justify-content: space-evenly;
+            padding: 30px 0px;
+            justify-items: center;}
+     }
+
+
+ 
+
+@media only screen and (min-width: 768px){
+    #indexintro {font-size: 24px;} 
+
+}
+@media only screen and (max-width: 768px){
+    .indexintro {font-size: 164px;} 
+
+}
+
+@media only screen and (min-width: 768px){
+    #accordion {font-size:24px;}
+}
+
+@media only screen and (max-width: 768px){
+    #accordion {font-size:16px;}
+
+}
+
+
+@media only screen and (min-width: 768px){
+    #sunset  {height:400px; width:400px;}
+}
+@media only screen and (min-width: 768px){
+    #books  {height:400px; width:400px;}
+}

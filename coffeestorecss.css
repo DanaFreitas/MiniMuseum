@@ -1,0 +1,88 @@
+div.cafeabout {position:center; text-align: center; font-size: 16px; margin-top:30px;}
+
+@media only screen and (min-width: 768px){
+div.cafeabout {font-size:24px;}
+}
+
+#cafe {height:200px; width:300px; }
+
+@media only screen and (min-width: 768px){
+    #cafe { display:flex; flex-direction:row;  justify-content: center;}
+    }
+
+div.menu {text-align: center; font-size:16px;}
+
+#menutitle {padding-top: 100px;font-size:2em; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+div.table {display:table; margin-left:auto; margin-right: auto; border:1px solid blue; padding-bottom: 5px;}
+div.tablerow {display:table-row; }
+div.tablecell {display:table-cell; padding-left:50px; text-align: left; font-size: 22px; margin: 50px; padding-top: 10px;}
+
+.nivoSlider {width:60%; margin-left: auto; margin-right: auto;}
+
+#slides {
+    display: none;
+}
+  
+#slides .slidesjs-navigation {
+    margin-top: 3px;
+}
+  
+#slides .slidesjs-previous {
+    margin-right: 5px;
+    float: left; 
+}
+  
+#slides .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+  
+.slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+}
+  
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+  
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20201213110552/logo.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+  
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px;
+
+}
+  
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+
+}
+  
+#slides a:link,
+#slides a:visited {
+    color: #333;
+
+}
+  
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+  
+.navbar {
+    overflow: hidden
+}

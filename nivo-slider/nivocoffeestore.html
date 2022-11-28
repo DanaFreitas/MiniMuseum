@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+   
+    <link rel="stylesheet" href="generalcss.css">
+    <link rel="stylesheet" href="coffeestorecss.css"> 
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="pages">
+      <img src="images/MMMMM.png" class="MMMMM" onclick="home()">
+        <button class="button" onclick="home()" id="home">Home</button>
+        <button class="button" onclick="history()" id="history">Our History</button>
+        <button class="button" onclick="gallery()" id="gallery">Our Gallery</button>
+        <button class="button" onclick="coffeestore()" id="coffeestore">Our Cafe</button>
+        <button class="button" onclick="contact()" id="contact">Contact Us</button>
+            
+      
+      </div>
+      <div class="title">Welcome to Mrs. Mason's Magnificent Mini-Museum</div>
+     <div class="contain">
+
+      <img src="images/cafe.jpg" id="cafe">
+
+
+        <div class="cafeabout">The Marvelous Mini cafe is a wonderful spot to have a coffee, meet with your friends, or do some work. Founded in 1982, it has been a 
+          maystay of the community and a wonderful addition to the mini-museum.
+        </div>
+
+
+      <div id="menutitle"> The menu</div>
+
+
+      <div id="slider" class="nivoSlider"> 
+        <img src="menuimages/MenuSmallCoffee.jpg" title="Small Coffee $2.99">
+        <img src="menuimages/MenuLargeCoffee.jpg" title="Large Coffee $4.99">
+        <img src="menuimages/BlueberryMuffin.jpg" title="Blueberry Muffin $3.49">
+        <img src="menuimages/ChocolateChipMuffin.jpg" title="Chocolate Chip Muffin $3.49">
+        <img src="menuimages/BagelWithCreamCheese.jpg" title="Bagel with Cream Cheese $3.99">
+        <img src="menuimages/KaleandAvacadoToast.jpg" title="Kale and Avacado Toast $3.99">
+        <img src="menuimages/GrilledCheese.jpg" title="Grilled Cheese $5.49">
+        <img src="menuimages/HardboiledEgg.jpg" title="Hard Boiled Egg $3.49">
+        <img src="menuimages/BaconEggandCheese.jpg"  title="Bacon Egg and Cheese Sandwich $6.99" />
+        <img src="menuimages/SausageEggandCheese.jpg" title="Sausage Egg and Cheese Sandwich $6.99"> 
+        </div>
+
+        
+
+
+
+        <div class="menu">
+
+          <table class="table">
+
+            <tr>
+              <th>Items</th>
+              <th>Price</th>
+            </tr>
+                <td>Small Coffee</td>
+                <td>$2.99</td>
+
+              <tr>
+                <td>Large Coffee</td>
+                <td>$4.99</td>
+              </tr>
+              <tr>
+                <td>Blueberry Muffin</td>
+                <td>$3.49</td>
+              </tr>
+              <tr>
+                <td>Chocolate Chip Muffin</td>
+                <td>$3.49</td>
+              </tr>
+              <tr>
+                <td>Bagel with Cream Cheese</td>
+                <td>$3.99</td>
+              </tr>
+              <tr>
+                <td>Kale and avacado toast</td>
+                <td>$3.99</td>
+              </tr>
+              <tr>
+                <td>Grilled Cheese Sandwich</td>
+                <td>$5.49</td>
+              </tr>
+              <tr>
+                <td>3 Hardboiled Eggs</td>
+                <td>$3.49</td>
+              </tr>
+              <tr>
+                <td>Bacon Egg and Cheese Sandwich</td>
+                <td>$6.99</td>
+              </tr>
+              <tr>
+                <td>Sausage Egg and Cheese Sandwich</td>
+                <td>$6.99</td>
+              </tr>
+
+          </table> 
+
+        </div>
+
+
+
+
+      </div>
+      
+      <div class="footer">
+
+      <div id="hours"> Our hours are Monday-Friday 9:00am-6:00pm.</div>
+      <img src="SocialMediaImages/youtube-logo-png-2067.png" class="link">
+        <img src="SocialMediaImages/facebook-logo-493.png" class="link">
+      <img src="SocialMediaImages/logo-instagram-png-2445.png" class="link">
+      <img src="SocialMediaImages/logo-twitter-png-5861.png" class="link">
+      </div>
+      
+      </div> 
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+  $(window).load(function() {
+  $('#slider').nivoSlider();
+  });
+  </script>
+
+<script src="final.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

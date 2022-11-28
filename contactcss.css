@@ -1,0 +1,29 @@
+span {display:none;}
+div.title {margin:center;}
+
+/*select   {display: block;  margin:auto; margin-left:50px; } */
+
+#submit, #submit2 {margin-top: 40px; background-color:aqua;/*overflow:auto;*/width:100%; text-align: center; display: block;}
+
+#submit:hover, #submit2:hover {color:white;}
+
+/*#text {display: block;  margin:auto; height:200px; width:300px;}*/
+
+/*textarea {font-size: 1em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  text-align:center;}*/
+textarea {display:block; margin-left: auto; margin-right: auto;}
+
+input { font-size: 1em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  text-align:center; margin:20px; background-color: white;}
+select {font-size: 1em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  text-align:center; margin:20px;}
+option {font-size: 1em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  text-align:center;}
+/*#State, #Country {display: block;  margin:auto;} */
+
+div.table {display:table; margin-bottom:20px; margin-top:200px; margin-left: auto; margin-right: auto; table-layout: fixed; padding:40px;}
+div.tablerow {display:table-row;  padding:10px;}
+div.tablecell {display:table-cell; padding:10px; font-size:20px; width:500px;}
+
+/*#submittablecell, #submit2tablecell {overflow:auto;width:100%; text-align: center;} */
+
+@media only screen and (min-width: 576px){
+
+.left {text-align: right;}
+}
