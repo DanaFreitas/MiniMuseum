@@ -1,3 +1,4 @@
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -123,3 +124,122 @@ html { background-image: url("images/background.jpg") repeat 0 0;}
  @media only screen and (min-width: 768px){
   #outline {background-color: lightgray; border-radius: 15px; margin-left: 5%; margin-right: 5%;  margin-bottom: 50px;}
 } 
+
+gallerycss .gallerybutton {background:none; border:none; color:brown; font-size: 36px;}
+
+div.title {font-size: 32px; text-align: center; font-weight: bold;} 
+
+/* div.container2 {margin-top: 1000px;} */
+
+#exhibitabout {position:center; text-align: center; font-size: 16px; margin:20px 20px;}
+
+
+
+
+
+
+
+#slides {
+    display: none
+}
+  
+#slides .slidesjs-navigation {
+    margin-top: 3px;
+}
+  
+#slides .slidesjs-previous {
+    margin-right: 5px;
+    /* float: left; */
+}
+  
+#slides .slidesjs-next {
+    margin-right: 5px;
+    /* float: left; */
+}
+  
+
+
+
+
+
+
+
+.slidesjs-pagination {
+    margin: 6px 0 0;
+    /* float: right; */
+    list-style: none;
+}
+  
+.slidesjs-pagination li {
+    /* float: left; */
+    margin: 0 100px;
+}
+  
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20201213110552/logo.png);
+    background-position: 0 0;
+     float: left; 
+    overflow: hidden;
+}
+  
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -1300px
+}
+  
+.slidesjs-pagination li a:hover {
+    background-position: 0 -2600px
+}
+  
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+  
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+  
+
+.navbar {
+    overflow: hidden
+}
+
+
+
+
+
+
+
+
+/*
+#slides2 {
+    display: none
+}
+  
+#slides2 .slidesjs-navigation {
+    margin-top: 3px;
+}
+  
+#slides2 .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+}
+  
+#slides2 .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+*/
+
+
+
+
+
+/* .nivoSlider {width: 80%; display: flex; flex-direction: row; align-items:flex-end; justify-content:flex-end;} */

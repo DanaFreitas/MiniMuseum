@@ -47,7 +47,7 @@ function contact() {
 
 //contact us form validation
 $(document).ready(function() {
-  $(":text, :password").after("<span>*</span>");
+  $(":text, :password").after("<span></span>");
  arrival_date.focus()
   $("#reservation_form").submit(
 
@@ -98,7 +98,7 @@ $(document).ready(function() {
 
 //validate password
 $(document).ready(function() {
-  $(":text, :password").after("<span>*</span>");
+  $(":text, :password").after("<span></span>");
   arrival_date.focus()
   $("#reservation_form2").submit(
   function(event){
